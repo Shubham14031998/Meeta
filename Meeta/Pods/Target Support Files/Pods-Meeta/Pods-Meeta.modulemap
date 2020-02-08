@@ -1,0 +1,6 @@
+framework module Pods_Meeta {
+  umbrella header "Pods-Meeta-umbrella.h"
+
+  export *
+  module * { export * }
+}

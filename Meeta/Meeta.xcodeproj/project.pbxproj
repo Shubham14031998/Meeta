@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E3446B623EF3DFF0028D5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3446B523EF3DFF0028D5FF /* AppDelegate.swift */; };
+		6E3446B823EF3E000028D5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3446B723EF3E000028D5FF /* SceneDelegate.swift */; };
+		6E3446BA23EF3E000028D5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3446B923EF3E000028D5FF /* ViewController.swift */; };
+		6E3446BD23EF3E000028D5FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3446BB23EF3E000028D5FF /* Main.storyboard */; };
+		6E3446BF23EF3E030028D5FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E3446BE23EF3E030028D5FF /* Assets.xcassets */; };
+		6E3446C223EF3E030028D5FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E3446C023EF3E030028D5FF /* LaunchScreen.storyboard */; };
+		E1280A6CB90D4FAE248F9013 /* Pods_Meeta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543BAA93D981C808667B7A8C /* Pods_Meeta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1623AD13DDD5E231F1367127 /* Pods-Meeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meeta.release.xcconfig"; path = "Target Support Files/Pods-Meeta/Pods-Meeta.release.xcconfig"; sourceTree = "<group>"; };
+		543BAA93D981C808667B7A8C /* Pods_Meeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3446B223EF3DFF0028D5FF /* Meeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3446B523EF3DFF0028D5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E3446B723EF3E000028D5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6E3446B923EF3E000028D5FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E3446BC23EF3E000028D5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E3446BE23EF3E030028D5FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E3446C123EF3E030028D5FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E3446C323EF3E030028D5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE77F43C64B4585E07DF8CBE /* Pods-Meeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Meeta.debug.xcconfig"; path = "Target Support Files/Pods-Meeta/Pods-Meeta.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E3446AF23EF3DFF0028D5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1280A6CB90D4FAE248F9013 /* Pods_Meeta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E3446A923EF3DFF0028D5FF = {
+			isa = PBXGroup;
+			children = (
+				6E3446B423EF3DFF0028D5FF /* Meeta */,
+				6E3446B323EF3DFF0028D5FF /* Products */,
+				D382E2B6EF2189E73D900C3A /* Pods */,
+				85AB176A4037586C69AD1383 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E3446B323EF3DFF0028D5FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E3446B223EF3DFF0028D5FF /* Meeta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E3446B423EF3DFF0028D5FF /* Meeta */ = {
+			isa = PBXGroup;
+			children = (
+				6E3446B523EF3DFF0028D5FF /* AppDelegate.swift */,
+				6E3446B723EF3E000028D5FF /* SceneDelegate.swift */,
+				6E3446B923EF3E000028D5FF /* ViewController.swift */,
+				6E3446BB23EF3E000028D5FF /* Main.storyboard */,
+				6E3446BE23EF3E030028D5FF /* Assets.xcassets */,
+				6E3446C023EF3E030028D5FF /* LaunchScreen.storyboard */,
+				6E3446C323EF3E030028D5FF /* Info.plist */,
+			);
+			path = Meeta;
+			sourceTree = "<group>";
+		};
+		85AB176A4037586C69AD1383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				543BAA93D981C808667B7A8C /* Pods_Meeta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D382E2B6EF2189E73D900C3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE77F43C64B4585E07DF8CBE /* Pods-Meeta.debug.xcconfig */,
+				1623AD13DDD5E231F1367127 /* Pods-Meeta.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E3446B123EF3DFF0028D5FF /* Meeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E3446C623EF3E030028D5FF /* Build configuration list for PBXNativeTarget "Meeta" */;
+			buildPhases = (
+				FE8EE45E8CD965C6B70A3308 /* [CP] Check Pods Manifest.lock */,
+				6E3446AE23EF3DFF0028D5FF /* Sources */,
+				6E3446AF23EF3DFF0028D5FF /* Frameworks */,
+				6E3446B023EF3DFF0028D5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meeta;
+			productName = Meeta;
+			productReference = 6E3446B223EF3DFF0028D5FF /* Meeta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E3446AA23EF3DFF0028D5FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Shubham Kaliyar";
+				TargetAttributes = {
+					6E3446B123EF3DFF0028D5FF = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 6E3446AD23EF3DFF0028D5FF /* Build configuration list for PBXProject "Meeta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E3446A923EF3DFF0028D5FF;
+			productRefGroup = 6E3446B323EF3DFF0028D5FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E3446B123EF3DFF0028D5FF /* Meeta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E3446B023EF3DFF0028D5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3446C223EF3E030028D5FF /* LaunchScreen.storyboard in Resources */,
+				6E3446BF23EF3E030028D5FF /* Assets.xcassets in Resources */,
+				6E3446BD23EF3E000028D5FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FE8EE45E8CD965C6B70A3308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Meeta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E3446AE23EF3DFF0028D5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E3446BA23EF3E000028D5FF /* ViewController.swift in Sources */,
+				6E3446B623EF3DFF0028D5FF /* AppDelegate.swift in Sources */,
+				6E3446B823EF3E000028D5FF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E3446BB23EF3E000028D5FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3446BC23EF3E000028D5FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E3446C023EF3E030028D5FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E3446C123EF3E030028D5FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E3446C423EF3E030028D5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E3446C523EF3E030028D5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E3446C723EF3E030028D5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE77F43C64B4585E07DF8CBE /* Pods-Meeta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.Meeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E3446C823EF3E030028D5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1623AD13DDD5E231F1367127 /* Pods-Meeta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Meeta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.Meeta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E3446AD23EF3DFF0028D5FF /* Build configuration list for PBXProject "Meeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3446C423EF3E030028D5FF /* Debug */,
+				6E3446C523EF3E030028D5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E3446C623EF3E030028D5FF /* Build configuration list for PBXNativeTarget "Meeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E3446C723EF3E030028D5FF /* Debug */,
+				6E3446C823EF3E030028D5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E3446AA23EF3DFF0028D5FF /* Project object */;
+}
